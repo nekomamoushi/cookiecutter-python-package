@@ -2,8 +2,8 @@
 
 [Cookiecutter](https://github.com/audreyr/cookiecutter) Template for a Python Package
 
-* Repository:  https://github.com/nekomamoushi/cookiecutter-python-package
-* License: MIT
+* Repository:  [Github](https://github.com/nekomamoushi/cookiecutter-python-package/)
+* License: [MIT](https://github.com/nekomamoushi/cookiecutter-python-package/blob/master/LICENSE)
 
 ## Features
 
