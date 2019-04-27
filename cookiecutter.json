@@ -1,0 +1,9 @@
+{
+    "package_name": "Your Wonderbar Package Name",
+    "package_version": "Your first version",
+    "package_description": "Your Awesome Package Description",
+    "package_url": "Your Super Package Url",
+    "package_author": "Your Mighty Full Name",
+    "package_author_email": "Your Incredible email",
+    "package_license": ["MIT"]
+}
