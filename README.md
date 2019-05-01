@@ -10,6 +10,7 @@
 * Environment: Setup with [pipenv](https://pipenv.readthedocs.io/en/latest)
 * Tests: Setup with [pytest](https://pytest.readthedocs.io/en/latest)
 * Versioning: Setup with [bumpversion](https://github.com/peritus/bumpversion)
+* Command Line: Setup with [click](https://palletsprojects.com/p/click/)
 * License: Choose betwen licenses
  * MIT
  * Apache
