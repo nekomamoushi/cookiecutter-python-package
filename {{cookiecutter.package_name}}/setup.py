@@ -110,7 +110,7 @@ setup(
     # See https://setuptools.readthedocs.io/en/latest/setuptools.html#automatic-script-creation
     entry_points=dict(
         console_scripts=[
-            '{{cookiecutter.package_name}} = {{cookiecutter.package_name}}:main'
+            '{{cookiecutter.package_name}} = {{cookiecutter.package_name}}.cli : cli'
         ]
     )
 )
