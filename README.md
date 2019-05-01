@@ -7,9 +7,9 @@
 
 ## Features
 
-* Pipenv: Pre-configured Pipfile ([doc](https://pipenv.readthedocs.io/en/latest))
-* Testing: Setup with `pytest` ([doc](https://pytest.readthedocs.io/en/latest))
-* Versioning: Pre-configured version with `bumpversion` ([doc](https://github.com/peritus/bumpversion))
+* Environment: Setup with [pipenv](https://pipenv.readthedocs.io/en/latest)
+* Tests: Setup with [pytest](https://pytest.readthedocs.io/en/latest)
+* Versioning: Setup with [bumpversion](https://github.com/peritus/bumpversion)
 * License: Choose betwen licenses
  * MIT
  * Apache
