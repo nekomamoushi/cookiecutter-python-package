@@ -5,5 +5,6 @@
     "package_url": "www.google.com",
     "package_author": "Full Name",
     "package_author_email": "email@domain.com",
-    "package_license": ["MIT", "Apache License 2.0", "No License"]
+    "package_license": ["MIT", "Apache License 2.0", "No License"],
+    "package_use_cli": ["Click", "No command line"]
 }
