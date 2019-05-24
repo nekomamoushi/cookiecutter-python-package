@@ -44,6 +44,7 @@ setup(
 
     description=DESCRIPTION,
     long_description=get_long_description(),
+    long_description_content_type='text/markdown',
 
     # The project's main homepage.
     url=URL,
