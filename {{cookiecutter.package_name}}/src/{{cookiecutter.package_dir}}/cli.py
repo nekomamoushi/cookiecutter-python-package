@@ -1,6 +1,7 @@
 import click
 
-from {{cookiecutter.package_name}} import main
+from {{cookiecutter.package_dir}} import main
+
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
 @click.group(

@@ -10,7 +10,7 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 
 # Load the package's __init__.py module as a dictionary.
 ABOUT = {}
-with io.open(os.path.join(HERE, 'src/{{cookiecutter.package_name}}', '__init__.py')) as f:
+with io.open(os.path.join(HERE, 'src/{{cookiecutter.package_dir}}', '__init__.py')) as f:
     exec(f.read(), ABOUT)
 
 # Get the long description from the README file
@@ -111,7 +111,7 @@ setup(
     # See https://setuptools.readthedocs.io/en/latest/setuptools.html#automatic-script-creation
     entry_points=dict(
         console_scripts=[
-            '{{cookiecutter.package_name}} = {{cookiecutter.package_name}}.cli : cli'
+            '{{cookiecutter.package_name}} = {{cookiecutter.package_dir}}.cli : cli'
         ]
     )
 )

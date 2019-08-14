@@ -4,7 +4,7 @@ def del_license_file():
     os.unlink("LICENSE")
 
 def del_cli_file():
-    os.unlink("src/{{cookiecutter.package_name}}/cli.py")
+    os.unlink("src/{{cookiecutter.package_dir}}/cli.py")
     os.unlink("tests/test_cli.py")
 
 if __name__ == "__main__":
