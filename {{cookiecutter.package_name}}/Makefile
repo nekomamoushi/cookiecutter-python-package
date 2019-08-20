@@ -60,6 +60,9 @@ clean-test:
 # Build Environment
 # --------------------------------------------------------------------------- #
 
+build:
+	$(PYTHON) setup.py sdist bdist_wheel
+
 # Source distribution
 build-sdist:
 	$(PYTHON) setup.py sdist
