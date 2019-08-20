@@ -86,7 +86,7 @@ coverage:
 
 # Make sure twine is installed
 upload-pypi:
-	$(PYTHON) setup.py upload --repository pypi
+	twine upload --repository pypi dist/*
 
 upload-test:
-	$(PYTHON) setup.py upload --repository testpypi
+	twine upload --repository testpypi dist/*
